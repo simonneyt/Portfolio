@@ -37,26 +37,30 @@
   <div id="timeline" class="timeline">
           <div class="container left">
             <div class="content">
-              <h2>2018</h2>
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h2>2018-2019 okt-mrt</h2>
+              <p>IBO contract bij Hellogoodbye in Brugge, waar ik mijn 1ste werkervaring binnen het Front-end development heb opgedaan.
+              Hier heb ik nieuwe vaardigheden bijgeleerd zoals sass, wordpress & laravel. Tijdens mijn IBO contract heb ik ook een avondopleiding programmeren gevold.
+              En hier heb ik .NET en Javascript bijgeleerd.</p>
             </div>
           </div>
           <div class="container right">
             <div class="content">
-              <h2>2016</h2>
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h2>2016-2018</h2>
+              <p>2 jarige opleiding HBO5 MIT, waar ik hoofdzakelijk websites heb leren maken en HTML5, CSS, Javascript en PHP bijgeleerd heb.
+              En een leuke stage waar ik vooral video en grafisch werk gedaan heb.</p>
             </div>
           </div>
           <div class="container left">
             <div class="content">
-              <h2>2014</h2>
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h2>2015-2016</h2>
+              <p>1 jarige opleiding binnen Syntra West Multimedia Developer, waar ik zowel websites als grafisch en video's werken heb gemaakt. 
+              HTML5, CSS3, Drupal, Illustrator, Photoshop en premiere zijn de vaardigheden die ik hier opgedaan heb.</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>2011-2014</h2>
+              <p>In mijn laatste graad en 7de specialisatie heb ik Publiciteit en illustratie gedaan, en hier heb ik gewerkt met Photoshop, Illustrator en Indesign.</p>
             </div>
           </div>
   </div>
@@ -64,9 +68,10 @@
   <div class="contact">
     <div class="contact__content">
       <h1 id="about">ABOUT ME</h1>
-      <p class="AboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+      <p class="AboutText">Ik ben een moderne man en een dierenvriend. Samen met mijn vriendin hebben we 2 katten. Ik kijk graag een serie, film of anime.
+      Af en toe een cinemabezoekje doe ik ook graag, of een pintje met maten. Een reis is ook altijd mooi meegenomen, ik heb altijd een top 3.
+      Het is belangrijk voor mij om mezelf te blijven verbeteren. Dat kan gaan over mijn programmeertalen onderhouden en bijschaven, nieuwe ontwikkelingen 
+      binnen de IT wereld of bijvoorbeeld leren koken. Ik ben een gezellige persoon die streeft om de beste versie van mezelf te zijn, zowel prive als op de werkvloer.
       </p>
     </div>
     <img src="<?php echo get_template_directory_uri() .  '/images/demo/charts-computer-data-669615.jpg'; ?>" alt="Avatar" class="contact__foto">

@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <main>
+  <button id="scrollUp" class="scroll-up">Top</button>
   <div class="row">
     <div class="col-sm-12">
 

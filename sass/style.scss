@@ -1,5 +1,6 @@
 /* VARIABELS */
 $primary-color: #84CEEB;
+$secondary-color: #333333;
 
 /* BASIC */
 body {
@@ -19,7 +20,7 @@ h1 {
 /* PAGE-HERO */
 
 .page-header {
-  background-image: url("../images/demo/page-hero.jpg"); /* The image used */
+  background-image: url("../images/page-header-1.jpg"); /* The image used */
   background-color: $primary-color; /* Used if the image is unavailable */
   height: 80vh; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -145,13 +146,17 @@ h1 {
 
 .content-tile:hover .content-tile-inner {
   transform: rotateY(180deg);
+
+  .content-tile-front {
+    z-index: 0;
+  }
 }
 
 .content-tile-front, .content-tile-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
+  //backface-visibility: hidden;
 }
 
 .content-tile-front {
@@ -162,6 +167,9 @@ h1 {
 
 .content-tile-back {
   color: white;
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
   transform: rotateY(180deg);
   z-index: 1;
   display: flex;
@@ -359,7 +367,7 @@ h1 {
     border: 5px solid $primary-color;
     position: relative;
     border-radius: 6px;
-    color: $primary-color;
+    color: $secondary-color;
 }
 
 /*ABOUT*/
@@ -368,7 +376,6 @@ h1 {
   align-items: center;
   margin: 0;
   max-width: 1900px;
-  height: 500px;
   position: relative;
 
   &__content {
@@ -390,7 +397,7 @@ h1 {
     content: "";
     flex: 1;
     width: 100%;
-    height: 100%;
+    height: 632px;
     background-color: $primary-color;
   }
 }
@@ -406,7 +413,7 @@ h1 {
 
 /* FOOTER*/
 .footer {
-  background-color: #333333;
+  background-color: $secondary-color;
   padding: 5px;
 }
 .copyright{
@@ -417,17 +424,43 @@ h1 {
   color: #ccc;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media only screen and (max-width: 1023px) {
+/* Media queries - Responsive timeline on screens less than 1024px wide */
+@media only screen and (max-width: 1024px) {
     .content-tile{
       width: 50%;
     }
 
     .contact {
       &__foto {
-        width: 50%;
+        height: 250px;
       }
     }
+}
+
+/* Media queries - Responsive timeline on screens less than 768px wide */
+@media only screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column-reverse;
+    margin-top: 330px;
+
+    &__foto {
+      width: 70%;
+      height: 70%;
+      position: absolute;
+      bottom: 100%;
+    }
+
+    &__content {
+      top: 12%;
+      padding: 50px 40px;
+    }
+
+    &__background {
+      position: absolute;
+      bottom: 92%;
+      height: 50%;
+    }
+  }
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -467,19 +500,20 @@ h1 {
     }
 
     .contact {
-      flex-direction: column-reverse;
-      margin-top: 85px;
+      margin-top: 200px;
+
+      &__content {
+        top: 35%;
+      }
 
       &__foto {
-        width: 70%;
-        height: 200px;
+        width: 80%;
+        bottom: 80%;
       }
 
       &__background {
         position: absolute;
-        top: 0;
-        margin-top: -100px;
-        height: 35%;
+        height: 25%;
       }
     }
 
